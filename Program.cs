@@ -20,6 +20,16 @@ namespace snake_game
 
         Random rnd = new Random();
 
+        Snake()
+        {
+            X[0] = 5;
+            Y[0] = 5;
+
+            // Console.CursorVisible = false;
+
+            pointX = rnd.Next(2, (Width - 2));
+            pointY = rnd.Next(2, (Height - 2));
+        }
         public void WriteBoard()
         {
            Console.Clear();
@@ -99,13 +109,21 @@ namespace snake_game
                 X[0]++;
                 break;
             }
+            for(int i = 1; i<=(parts-1); i++)
+            {
+                WritePoint(X[i], Y[i]);
+                WritePoint(pointX, pointY);
+            }
+            Thread.Sleep(100);
         }
         static void Main(string[] args)
         {
             Snake snake = new Snake();
+            while(true){
             snake.WriteBoard();
             snake.Input();
-            snake.WritePoint(1, 1);
+            snake.Logic();
+            }
             Console.ReadKey();
         }
     }
