@@ -25,7 +25,7 @@ namespace snake_game
             X[0] = 5;
             Y[0] = 5;
 
-            // Console.CursorVisible = false;
+            Console.CursorVisible = false;
 
             pointX = rnd.Next(2, (Width - 2));
             pointY = rnd.Next(2, (Height - 2));
@@ -63,14 +63,15 @@ namespace snake_game
         {
             if(Console.KeyAvailable)
             {
-                Console.ReadKey(true);
+                keyInfo = Console.ReadKey(true);
                 key = keyInfo.KeyChar;
             }
         }
         public void WritePoint(int x, int y)
         {
             Console.SetCursorPosition(x,y);
-            Console.Write("#");
+            Console.Write("*");
+            Console.ForegroundColor = ConsoleColor.Green;
         }
 
         public void Logic()
