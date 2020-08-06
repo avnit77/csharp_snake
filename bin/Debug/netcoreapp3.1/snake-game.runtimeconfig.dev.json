@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/tali/.dotnet/store/|arch|/|tfm|",
+      "/home/tali/.nuget/packages"
+    ]
+  }
+}

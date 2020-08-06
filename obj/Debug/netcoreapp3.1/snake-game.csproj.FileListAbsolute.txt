@@ -1,0 +1,13 @@
+/home/tali/snake-game/bin/Debug/netcoreapp3.1/snake-game
+/home/tali/snake-game/bin/Debug/netcoreapp3.1/snake-game.deps.json
+/home/tali/snake-game/bin/Debug/netcoreapp3.1/snake-game.runtimeconfig.json
+/home/tali/snake-game/bin/Debug/netcoreapp3.1/snake-game.runtimeconfig.dev.json
+/home/tali/snake-game/bin/Debug/netcoreapp3.1/snake-game.dll
+/home/tali/snake-game/bin/Debug/netcoreapp3.1/snake-game.pdb
+/home/tali/snake-game/obj/Debug/netcoreapp3.1/snake-game.csprojAssemblyReference.cache
+/home/tali/snake-game/obj/Debug/netcoreapp3.1/snake-game.AssemblyInfoInputs.cache
+/home/tali/snake-game/obj/Debug/netcoreapp3.1/snake-game.AssemblyInfo.cs
+/home/tali/snake-game/obj/Debug/netcoreapp3.1/snake-game.csproj.CoreCompileInputs.cache
+/home/tali/snake-game/obj/Debug/netcoreapp3.1/snake-game.dll
+/home/tali/snake-game/obj/Debug/netcoreapp3.1/snake-game.pdb
+/home/tali/snake-game/obj/Debug/netcoreapp3.1/snake-game.genruntimeconfig.cache
